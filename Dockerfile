@@ -5,8 +5,8 @@ RUN mkdir -p /usr/src/hackeventlistener
 WORKDIR /usr/src/hackeventlistener
 
 ENV AMQPURL=
-ENV PROCESSENDPOINT=
-ENV TEAMNAME=
+ENV PROCESSENDPOINT="http://[yourfulfillordername].[namespace]:8080/v1/order"
+ENV TEAMNAME="Ducker"
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
