@@ -4,7 +4,7 @@ FROM node:boron
 RUN mkdir -p /usr/src/hackeventlistener
 WORKDIR /usr/src/hackeventlistener
 
-ENV AMQPURL=
+ENV AMQPURL="amqp://oxxumuma:4UFM16mg5xzvj_2-UbZd8UMPoEu1eHxK@woodpecker.rmq.cloudamqp.com/oxxumuma"
 ENV PROCESSENDPOINT="http://[yourfulfillordername].[namespace]:8080/v1/order"
 ENV TEAMNAME="Ducker"
 
