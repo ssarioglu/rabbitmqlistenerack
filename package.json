@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "amqplib": "0.5.2",
-    "request": "2.85.0",
+    "request": "2.88.2",
     "applicationinsights": "1.0.2"
   }
 }
