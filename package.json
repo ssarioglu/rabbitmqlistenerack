@@ -10,7 +10,7 @@
     "test": "npm -s run lint"
   },
   "devDependencies": {
-    "jshint": "^2.9.1"
+    "jshint": "^2.13.6"
   },
   "dependencies": {
     "amqplib": "0.5.2",
